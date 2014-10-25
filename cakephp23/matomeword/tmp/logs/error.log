@@ -1,0 +1,749 @@
+2014-10-13 04:21:39 Error: [MissingActionException] Action TrsuredataController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrsuredataController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsuredata
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TrsuredataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 04:21:43 Error: [MissingControllerException] Controller class TrsuredatasController could not be found.
+Exception Attributes: array (
+  'class' => 'TrsuredatasController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsuredatas
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 04:21:47 Error: [MissingControllerException] Controller class TrsuredatController could not be found.
+Exception Attributes: array (
+  'class' => 'TrsuredatController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsuredat
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 04:22:06 Error: [MissingActionException] Action TrsuredataController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrsuredataController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsuredata
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TrsuredataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 04:26:52 Error: [MissingControllerException] Controller class Trsuredata10Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Trsuredata10Controller',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsuredata10
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:06:23 Error: [MissingControllerException] Controller class Trsuredata10sController could not be found.
+Exception Attributes: array (
+  'class' => 'Trsuredata10sController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:08:03 Error: [MissingActionException] Action Trsuredata10sController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'Trsuredata10sController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(Trsuredata10sController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 05:21:27 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 65]
+2014-10-13 05:21:27 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 05:25:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsuredata10s\edit.ctp, line 12]
+2014-10-13 05:25:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 05:26:57 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsuredata10s\edit.ctp, line 12]
+2014-10-13 05:26:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 05:30:57 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsuredata10s\edit.ctp, line 12]
+2014-10-13 05:30:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 05:40:09 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:40:25 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:40:31 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Post
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:41:18 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:41:25 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/post
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:41:29 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 05:56:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 05:56:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 05:57:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 05:57:35 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:11:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 12]
+2014-10-13 06:11:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:36:01 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 06:36:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 12]
+2014-10-13 06:36:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:39:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 12]
+2014-10-13 06:39:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:43:32 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 10]
+2014-10-13 06:43:32 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:47:34 Error: Fatal Error (1): Call to a member function exists() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 66]
+2014-10-13 06:47:34 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:48:11 Error: Fatal Error (1): Call to a member function exists() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 66]
+2014-10-13 06:48:11 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:48:26 Error: Fatal Error (1): Call to a member function exists() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 66]
+2014-10-13 06:48:26 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:56:16 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\ContactsController.php, line 61]
+2014-10-13 06:56:16 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/edit
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:57:12 Error: [MissingActionException] Action ContactsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'add',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/add
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 06:57:29 Error: [MissingActionException] Action ContactsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'add',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/add
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 06:58:37 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\ContactsController.php, line 36]
+2014-10-13 06:58:37 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/view
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 06:58:54 Error: [MissingActionException] Action ContactsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'add',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/add
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 06:59:21 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\ContactsController.php, line 61]
+2014-10-13 06:59:21 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/edit
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:04:02 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\ContactsController.php, line 53]
+2014-10-13 07:04:02 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 53, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 53, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:06:01 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/posts
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 07:07:54 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\ContactsController.php, line 53]
+2014-10-13 07:07:54 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Contacts/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 53, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 53, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:18:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 13]
+2014-10-13 07:18:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:19:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 07:19:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:21:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 07:21:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:22:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 07:22:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:24:31 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 14]
+2014-10-13 07:24:31 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:25:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 24]
+2014-10-13 07:25:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:26:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php, line 24]
+2014-10-13 07:26:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:28:13 Error: [MissingTableException] Table trsuredata10s for model TrSuredata10 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'trsuredata10s',
+  'class' => 'TrSuredata10',
+  'ds' => 'default',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(3243): Model->setSource('trsuredata10s')
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(2696): Model->getDataSource()
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(1074): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php(23): Controller->paginate()
+#5 [internal function]: Trsuredata10sController->index()
+#6 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(Trsuredata10sController), Array)
+#7 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(Trsuredata10sController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-13 07:32:46 Error: [MissingActionException] Action TrsurelistsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrsurelistsController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TrsurelistsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 07:32:54 Error: [MissingControllerException] Controller class TrsurelistController could not be found.
+Exception Attributes: array (
+  'class' => 'TrsurelistController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsurelist
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 07:33:26 Error: [MissingActionException] Action TrsurelistsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrsurelistsController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TrsurelistsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 07:34:19 Error: [MissingActionException] Action TrsurelistsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrsurelistsController',
+  'action' => 'index',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TrsurelistsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 07:34:35 Error: [MissingControllerException] Controller class TrsurelistController could not be found.
+Exception Attributes: array (
+  'class' => 'TrsurelistController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelist
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 07:38:37 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 07:38:37 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:50:35 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 18]
+2014-10-13 07:50:35 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:51:56 Error: [MissingTableException] Table trsuredata10s for model TrSuredata10 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'trsuredata10s',
+  'class' => 'TrSuredata10',
+  'ds' => 'default',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(3243): Model->setSource('trsuredata10s')
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(2696): Model->getDataSource()
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(1074): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php(23): Controller->paginate()
+#5 [internal function]: Trsuredata10sController->index()
+#6 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(Trsuredata10sController), Array)
+#7 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(Trsuredata10sController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-13 07:52:01 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 19]
+2014-10-13 07:52:01 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:52:23 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 19]
+2014-10-13 07:52:23 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 07:56:31 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC, expecting ',' or ';' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 12]
+2014-10-13 07:56:31 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC, expecting ',' or ';'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 08:11:47 Error: [MissingTableException] Table trsuredata10s for model TrSuredata10 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'trsuredata10s',
+  'class' => 'TrSuredata10',
+  'ds' => 'default',
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/trsuredata10s/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(3243): Model->setSource('trsuredata10s')
+#1 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Model\Model.php(2696): Model->getDataSource()
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(1074): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\Trsuredata10sController.php(23): Controller->paginate()
+#5 [internal function]: Trsuredata10sController->index()
+#6 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(Trsuredata10sController), Array)
+#7 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(Trsuredata10sController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-13 08:27:48 Error: [MissingControllerException] Controller class MtsexController could not be found.
+Exception Attributes: array (
+  'class' => 'MtsexController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Mtsex
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 08:27:57 Error: [MissingControllerException] Controller class MtsexsController could not be found.
+Exception Attributes: array (
+  'class' => 'MtsexsController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Mtsexs
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 08:39:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 08:39:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 08:40:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 08:40:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 08:40:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 08:40:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 08:42:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 08:42:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 08:44:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\Controller\TrsurelistsController.php, line 65]
+2014-10-13 08:44:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 09:03:11 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ')' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\edit.ctp, line 10]
+2014-10-13 09:03:11 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ')'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 10:29:32 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\edit.ctp, line 9]
+2014-10-13 10:29:32 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 10:33:41 Error: [MissingControllerException] Controller class MskatesController could not be found.
+Exception Attributes: array (
+  'class' => 'MskatesController',
+  'plugin' => NULL,
+)
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Mskates
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 12:29:58 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 21]
+2014-10-13 12:29:58 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:31:37 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 18]
+2014-10-13 12:31:37 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:49:05 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 6]
+2014-10-13 12:49:05 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:49:28 Error: Fatal Error (1): Call to undefined function pubcone() in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 5]
+2014-10-13 12:49:28 Error: [FatalErrorException] Call to undefined function pubcone()
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:50:08 Error: Fatal Error (1): Call to undefined function pubcone() in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 5]
+2014-10-13 12:50:08 Error: [FatalErrorException] Call to undefined function pubcone()
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:53:59 Error: Fatal Error (1): Call to undefined function pubcone() in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 9]
+2014-10-13 12:53:59 Error: [FatalErrorException] Call to undefined function pubcone()
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 12:54:55 Error: Fatal Error (1): Call to undefined function pubcone() in [C:\xampp\htdocs\project\surematome3\surematome\cakephp23\matomeword\View\Trsurelists\index.ctp, line 9]
+2014-10-13 12:54:55 Error: [FatalErrorException] Call to undefined function pubcone()
+Request URL: /project/surematome3/surematome/cakephp23/matomeword/Trsurelists/
+Stack Trace:
+#0 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\project\surematome3\surematome\cakephp23\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
