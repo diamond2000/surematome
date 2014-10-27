@@ -1,0 +1,11 @@
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\bin\Debug\matowin.exe
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\bin\Debug\matowin.pdb
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\bin\Debug\matowin.xml
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\matowin.Resources.resources
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\matowin.exe
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\matowin.xml
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\matowin.pdb
+C:\xampp\htdocs\project\surematome3\surematome\matowin\matowin\obj\x86\Debug\matowin.test.resources

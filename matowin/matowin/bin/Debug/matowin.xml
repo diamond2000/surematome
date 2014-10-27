@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+matowin
+</name>
+</assembly>
+<members>
+<member name="M:matowin.sqlClass.ConvertDataTableToCsv(System.Data.DataTable,System.String,System.Boolean)">
+	<summary>
+ DataTableの内容をCSVファイルに保存する
+ </summary>
+	<param name="dt">CSVに変換するDataTable</param>
+	<param name="csvPath">保存先のCSVファイルのパス</param>
+	<param name="writeHeader">ヘッダを書き込む時はtrue。</param>
+</member><member name="M:matowin.sqlClass.EncloseDoubleQuotesIfNeed(System.String)">
+	<summary>
+ 必要ならば、文字列をダブルクォートで囲む
+ </summary>
+</member><member name="M:matowin.sqlClass.EncloseDoubleQuotes(System.String)">
+	<summary>
+ 文字列をダブルクォートで囲む
+ </summary>
+</member><member name="M:matowin.sqlClass.NeedEncloseDoubleQuotes(System.String)">
+	<summary>
+ 文字列をダブルクォートで囲む必要があるか調べる
+ </summary>
+</member><member name="P:matowin.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:matowin.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:matowin.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
