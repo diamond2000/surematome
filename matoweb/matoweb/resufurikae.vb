@@ -657,7 +657,7 @@ Public Class resufurikae
     Public Overloads Shared Function IsNumeric(ByVal stTarget As String) As Boolean
         Return Double.TryParse( _
             stTarget, _
-            System.Globalization.NumberStyles.Any,
+            System.Globalization.NumberStyles.Any, _
             Nothing, _
             0.0# _
         )

@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\LOG\">
+    <file relUrl="bin/matoweb.xml" publishTime="10/29/2014 11:01:28" />
+    <file relUrl="bin/matoweb.dll" publishTime="10/29/2014 11:01:28" />
+    <file relUrl="bin/matoweb.pdb" publishTime="10/29/2014 11:01:28" />
+    <file relUrl="Service1.asmx" publishTime="10/29/2014 10:55:13" />
+    <file relUrl="Web.config" publishTime="10/29/2014 10:55:51" />
+  </publishTarget>
+</publishData>
