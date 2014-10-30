@@ -51,7 +51,7 @@ Webデータ取得<br>
 <?php
 	$string = getFuriwakeHTML();
 	//アンカー置き換え
-	$pattern= '/(<a href)(.*?)(&gt;&gt;)/is';
+	$pattern= '/(<a href="\.\.)(.*?)(&gt;&gt;)/is';
 	$string = preg_replace($pattern, '<span style="color:mediumblue;" class="anchor">&gt;&gt;', $string);
 	$pattern= '/&gt;&gt;(.+?)<\/a>/';
 	$string = preg_replace($pattern, '&gt;&gt;$1</span>', $string);
