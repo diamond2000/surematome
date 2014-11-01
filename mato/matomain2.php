@@ -61,6 +61,22 @@ Webデータ取得<br>
 	$pattern= '/<br>/';
 	$string = preg_replace($pattern, '<br />', $string);
 
+	//mailto置き換え
+	$pattern= '/<a href="mailto(.+?)<\/a>/';
+	$string = preg_replace($pattern, '<a href="mailto$1</span>', $string);
+	$pattern= '/(<a href="mailto)(.*?)(">)/is';
+	$string = preg_replace($pattern, '<span style="color: green; font-weight: bold;">', $string);
+	//fontcolor置き換え
+	$pattern= '/<font color=green>/';
+	$string = preg_replace($pattern, '<span style="color: green; font-weight: bold;">', $string);
+	$pattern= '/<\/font>/';
+	$string = preg_replace($pattern,'</span>', $string);
+	//不要タグ置き換え
+	$pattern= '/<\/b>/';
+	$string = preg_replace($pattern,'', $string);
+	$pattern= '/<b>/';
+	$string = preg_replace($pattern,'', $string);
+
 	//アレイリスト
 	$pattern= '/(<dt>)(.*?)(<\/dt>)/is';
 	preg_match_all($pattern, $string , $match);
