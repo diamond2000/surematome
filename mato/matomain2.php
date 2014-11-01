@@ -48,6 +48,7 @@ Webデータ取得<br>
 	$cstrsiteHTML =  getFuriwakeHTML() ;
 ?>
 </textarea>
+</form>
 <?php
 	$string = getFuriwakeHTML();
 	//アンカー置き換え
@@ -81,7 +82,17 @@ Webデータ取得<br>
 	$pattern= '/<\/span>:/';
 	$string = preg_replace($pattern,'</span> <span style="color: gray;">', $string);
 	$pattern= '/<dt><dt>(.+?)<dd>/';
-	$string = preg_replace($pattern, '<div class="t_h t_i" >$1</span></div>'."\n".'<div class="t_b t_i">' , $string);
+	$string = preg_replace($pattern, '<div class="t_h t_i" >$1</span></div>'."\n".'<div class="t_b t_i" >' , $string);
+	$pattern= '/<dt>(.+?)<dd>/';
+	$string = preg_replace($pattern, '<div class="t_h" >$1</span></div>'."\n".'<div class="t_b" >' , $string);
+	//名前ランGRAY処理
+	$pattern= '/<\/span>：/';
+	$string = preg_replace($pattern,'</span> <span style="color: gray;"> ', $string);
+	//文末処理
+	$pattern= '/<br \/>\r\n<di/';
+	$string = preg_replace($pattern,'</div><br />'."\n".'<di', $string);
+	$pattern= '/<br \/><\/dt>/';
+	$string = preg_replace($pattern,'</div><br />', $string);
 
 	//アレイリスト
 	$pattern= '/(<dt>)(.*?)(<\/dt>)/is';
