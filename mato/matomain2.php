@@ -77,10 +77,17 @@ Webデータ取得<br>
 	$pattern= '/<b>/';
 	$string = preg_replace($pattern,'', $string);
 
+	//ヘッダ、ディテイル分け、名前ランGRAY処理
+	$pattern= '/<\/span>:/';
+	$string = preg_replace($pattern,'</span> <span style="color: gray;">', $string);
+	$pattern= '/<dt><dt>(.+?)<dd>/';
+	$string = preg_replace($pattern, '<div class="t_h t_i" >$1</span></div>'."\n".'<div class="t_b t_i">' , $string);
+
 	//アレイリスト
 	$pattern= '/(<dt>)(.*?)(<\/dt>)/is';
 	preg_match_all($pattern, $string , $match);
-	print_r($match);
+	//print_r($match);
+echo $string;
 ?>
 
 </body>
