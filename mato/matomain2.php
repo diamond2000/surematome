@@ -138,7 +138,7 @@ Webデータ取得<br>
 		$gusuhantei=0;
 		$count = 0;
 		while ($count < count($match[0])){
-		    if ($gusuhantei==2){
+		    if ($gusuhantei==3){
 			$pattern= '/<div class="t_b" >/';
 			$match[0][$count] = preg_replace($pattern, '<div class="t_b"  style="color:#ff0000;">' , $match[0][$count]);
 			$pattern= '/<div class="t_b t_i" >/';

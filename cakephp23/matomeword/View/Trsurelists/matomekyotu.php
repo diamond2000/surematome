@@ -36,7 +36,7 @@ function douki(){
 
 //ÇrÇpÇkéÊìæ
 function sqlselect($value){
-	$link = mysql_connect('localhost', 'root', '');
+	$link = mysql_connect('localhost', 'root', '8661');
 	if (!$link) {
 	    die('sippai'.mysql_error());
 	}
@@ -59,7 +59,7 @@ function sqlselect($value){
 
 //ÇrÇpÇké¿çs
 function sqlexe($value){
-	$link = mysql_connect('localhost', 'root', '');
+	$link = mysql_connect('localhost', 'root', '8661');
 	if (!$link) {
 	    die('sippai'.mysql_error());
 	}
