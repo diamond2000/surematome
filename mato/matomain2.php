@@ -131,12 +131,26 @@ Webデータ取得<br>
 		$string = preg_replace($pattern, '<div class="t_h" >$1'.$retArr[3].'$2</span></div>'."\n".'<div class="t_b" style="font-weight:bold;color:#0000cd;" >' , $string);
 		$pattern= '/<div class="t_h t_i" >(.+?)'.$resid.'(.+?)\n<div class="t_b t_i" >/';
 		$string = preg_replace($pattern, '<div class="t_h t_i" >$1'.$retArr[3].'$2'."\n".'<div class="t_b t_i" style="font-weight:bold;color:#0000cd;" >' , $string);
+		//アカ文字偶数列
+		//アレイリスト
+		$pattern= '/(<div class=)(.*?)(<\/div><br \/>)/is';
+		preg_match_all($pattern, $string , $match);
+		$gusuhantei=0;
+		$count = 0;
+		while ($count < count($match[0])){
+		    if ($gusuhantei==2){
+			$pattern= '/<div class="t_b" >/';
+			$match[0][$count] = preg_replace($pattern, '<div class="t_b"  style="color:#ff0000;">' , $match[0][$count]);
+			$pattern= '/<div class="t_b t_i" >/';
+			$match[0][$count] = preg_replace($pattern, '<div class="t_b t_i" style="color:#ff0000;">' , $match[0][$count]);
+			$gusuhantei=0;
+		    }
+		    $gusuhantei = $gusuhantei + 1;
+		    $count=$count+1;
+		}
 
-	//アレイリスト
-	$pattern= '/(<dt>)(.*?)(<\/dt>)/is';
-	preg_match_all($pattern, $string , $match);
-	//print_r($match);
-echo $string;
+	print_r($match);
+//echo $string;
 ?>
 
 </body>
