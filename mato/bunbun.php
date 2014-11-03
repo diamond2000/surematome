@@ -4,12 +4,15 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 </head>
 <body>
+<form action="toukou.php" method="post">
+<input type="submit" name="button" />
 <?php
 include_once('matookikae.php');
 include_once('simple_html_dom.php');
 
-	$match = getmatookikae($_GET["url"]);
+	echo '<input type="hidden" name="url" value="'.$_GET["url"].'"/>';
 
+	$match = getmatookikae($_GET["url"]);
 
 	//画像置き換え
 	$count = 0;
@@ -31,6 +34,7 @@ include_once('simple_html_dom.php');
 		        //$replace = "<img src='h{$url}'>";
 		        //$images[] = $replace;
 		        //$body = str_replace($url, $replace, $body);
+			echo '<input type="checkbox" name="gazo[]" value="'.$url.'" />';
 			echo '<img src="http://127.0.0.1/project/surematome3/surematome/mato/gazosyori.php?url='.$url.'"></br>';
 		    }
 		}
@@ -40,6 +44,7 @@ include_once('simple_html_dom.php');
 	}
 	//print_r($match);
 ?>
-
+<input type="submit" name="button" />
+</form>
 </body>
 </html>

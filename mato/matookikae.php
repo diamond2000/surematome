@@ -66,6 +66,7 @@ function getHONBUNHTML($html){
 <?php
 function getmatookikae($mainurl){
 	$cstrsiteHTML =  getFuriwakeHTML($mainurl) ;
+
 	$string = $cstrsiteHTML;
 	//アンカー置き換え
 	$pattern= '/(<a href="\.\.)(.*?)(&gt;&gt;)/is';
