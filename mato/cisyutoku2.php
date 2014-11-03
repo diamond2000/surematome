@@ -23,8 +23,16 @@ $html = str_get_html($cstrsiteHTML);
 						print '-----------'. '<br>'."\n";
 						echo $element->parent->parent->parent->innertext ."</br>"."\n";
 				        	print $value . '<br>'."\n";
+						//タイトル取得
+						$cstrTITLEHTML = pfHpGet($value);
+						$htmlTITLE=str_get_html($cstrTITLEHTML);
+						foreach($htmlTITLE->find('title') as $titleelement){ 
+							echo mb_convert_encoding($titleelement->innertext, "UTF-8", "SJIS");
+							echo '</br>';
+						}
+
 						//投稿用リンク
-						echo '<a href="http://127.0.0.1/project/surematome3/surematome/mato/bunbun.php?url='.$value.'">ブンブン</a></br>'."\n";
+						echo '<a href="http://127.0.0.1/project/surematome3/surematome/mato/bunbun.php?title='.urlencode(mb_convert_encoding($titleelement->innertext, "UTF-8", "SJIS")).'&url='.$value.'">ブンブン</a></br>'."\n";
 						break;
 					}
 

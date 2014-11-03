@@ -11,6 +11,7 @@ include_once('matookikae.php');
 include_once('simple_html_dom.php');
 
 	echo '<input type="hidden" name="url" value="'.$_GET["url"].'"/>';
+	echo '<input type="hidden" name="title" value="'.$_GET["title"].'"/>'."\n";
 
 	$match = getmatookikae($_GET["url"]);
 
@@ -24,7 +25,7 @@ include_once('simple_html_dom.php');
 		//$pattern= '/<a href="(.*?).gif" target="_blank">(.*?)<\/a>/';
 		//$match[0][$count] = preg_replace($pattern, '<a href="$1.gif"><img src="$1.gif">$2</img></a>' , $match[0][$count]);
 
-		echo $match[0][$count];
+		echo $match[0][$count]."\n";
 
 
 		$pattern = '/(https?)(:\/\/[-_.!~*\'()a-zA-Z0-9;\/?:\@&=+\$,%#]+)\.(jpg|gif|png)/';
@@ -35,7 +36,7 @@ include_once('simple_html_dom.php');
 		        //$images[] = $replace;
 		        //$body = str_replace($url, $replace, $body);
 			echo '<input type="checkbox" name="gazo[]" value="'.$url.'" />';
-			echo '<img src="http://127.0.0.1/project/surematome3/surematome/mato/gazosyori.php?url='.$url.'"></br>';
+			echo '<a href='.$url.'><img src="http://127.0.0.1/project/surematome3/surematome/mato/gazosyori.php?url='.$url.'"></a></br>';
 		    }
 		}
 

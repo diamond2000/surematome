@@ -1,10 +1,4 @@
-﻿<html>
-<head>
-<title>まとめ</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<script src="javascript-xpath-latest.js"></script>
+﻿
 <?php
 
 include_once( "common.php" );
@@ -111,7 +105,10 @@ function getmatookikae($mainurl){
 	$pattern= '/<br \/>\r\n<di/';
 	$string = preg_replace($pattern,'</div><br />'."\n".'<di', $string);
 	$pattern= '/<br \/><\/dt>/';
-	$string = preg_replace($pattern,'</div><br />', $string);
+	$string = preg_replace($pattern,'</div><br />'."\n", $string);
+	//文末調整
+	$pattern= '/<br \/> <\/dt>/';
+	$string = preg_replace($pattern,'</div><br />'."\n", $string);
 	//画像URL加工
 	$pattern= '/http:\/\/2ch.io/';
 	$string = preg_replace($pattern,'http:/', $string);
@@ -145,10 +142,9 @@ function getmatookikae($mainurl){
 		    $count=$count+1;
 		}
 
+
 	return $match;
 }
 //echo $string;
 ?>
 
-</body>
-</html>
