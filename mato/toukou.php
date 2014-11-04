@@ -14,7 +14,7 @@
 	$count = 0;
 	$honbun = '';
 	while ($count < count($match[0])){
-		$honbun =$honbun . $match[0][$count];
+		$honbun =$honbun . $match[0][$count]."\n".'&nbsp;'."\n";
 	    	$count=$count+1;
 	}
 
