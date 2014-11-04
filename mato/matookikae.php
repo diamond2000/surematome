@@ -80,6 +80,9 @@ function getmatookikae($mainurl){
 	$string = preg_replace($pattern, '<a href="mailto$1</span>', $string);
 	$pattern= '/(<a href="mailto)(.*?)(">)/is';
 	$string = preg_replace($pattern, '<span style="color: green; font-weight: bold;">', $string);
+	//javascriptbe置き換え
+	$pattern= '/<a href="javascript:be\((.+?)\);">(.+?)<\/a>/';
+	$string = preg_replace($pattern, 'BE:$1-$2 ', $string);
 	//fontcolor置き換え
 	$pattern= '/<font color=green>/';
 	$string = preg_replace($pattern, '<span style="color: green; font-weight: bold;">', $string);
@@ -124,6 +127,12 @@ function getmatookikae($mainurl){
 		$string = preg_replace($pattern, '<div class="t_h" >$1'.$retArr[3].'$2</span></div>'."\n".'<div class="t_b" style="font-weight:bold;color:#0000cd;" >' , $string);
 		$pattern= '/<div class="t_h t_i" >(.+?)'.$resid.'(.+?)\n<div class="t_b t_i" >/';
 		$string = preg_replace($pattern, '<div class="t_h t_i" >$1'.$retArr[3].'$2'."\n".'<div class="t_b t_i" style="font-weight:bold;color:#0000cd;" >' , $string);
+
+		//文末調整
+		$pattern= '/<\/span><\/div><\/span><\/div>/';
+		$string = preg_replace($pattern,'</span></div>', $string);
+		$pattern= '/<\/span> <br \/> \r\n<di/';
+		$string = preg_replace($pattern,'</span></div><br />'."\n".'<di', $string);
 		//アカ文字偶数列
 		//アレイリスト
 		$pattern= '/(<div class=)(.*?)(<\/div><br \/>)/is';
@@ -141,6 +150,7 @@ function getmatookikae($mainurl){
 		    $gusuhantei = $gusuhantei + 1;
 		    $count=$count+1;
 		}
+
 
 
 	return $match;

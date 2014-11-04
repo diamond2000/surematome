@@ -14,7 +14,12 @@
 	$count = 0;
 	$honbun = '';
 	while ($count < count($match[0])){
-		$honbun =$honbun . $match[0][$count]."\n".'&nbsp;'."\n";
+		//BR置き換え(ワードプレス特有)
+		$pattern= '/<\/div><br \/>/';
+		$match[0][$count]= preg_replace($pattern, '</div>'."\n".'&nbsp;'."\n", $match[0][$count]);
+		$pattern= '/<br \/>/';
+		$match[0][$count] = preg_replace($pattern, "\n", $match[0][$count]);
+		$honbun =$honbun . $match[0][$count];
 	    	$count=$count+1;
 	}
 
