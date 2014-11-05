@@ -32,7 +32,7 @@ $html = str_get_html($cstrsiteHTML);
 						}
 
 						//投稿用リンク
-						echo '<a href="http://127.0.0.1/project/surematome3/surematome/mato/bunbun.php?title='.urlencode(mb_convert_encoding($titleelement->innertext, "UTF-8", "SJIS")).'&url='.$value.'">ブンブン</a></br>'."\n";
+						echo '<a href="./bunbun.php?title='.urlencode(mb_convert_encoding($titleelement->innertext, "UTF-8", "SJIS")).'&url='.$value.'">ブンブン</a></br>'."\n";
 						break;
 					}
 
