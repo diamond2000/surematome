@@ -26,7 +26,7 @@ Public Class Service1
         Dim lcls As New resufurikae
 
         '振り分け
-        lcls.shutoku("http://viper.2ch.sc/test/read.cgi/news4vip/1414438839/", lstrtitle, larray)
+        lcls.shutoku(str, lstrtitle, larray)
         lstrHTML += lstrtitle & vbCrLf
 
         For i As Integer = 0 To larray.Count - 1

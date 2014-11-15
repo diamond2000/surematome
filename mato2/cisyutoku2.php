@@ -7,7 +7,7 @@ $html = str_get_html($cstrsiteHTML);
 
 //XpathでDOM要素の指定をする　なお、ループ処理になるのでforeachを使う  
   foreach($html->find('div[class="bar"]') as $element){  
-	if ($element->innertext > 1000){
+	if ($element->innertext > 500){
 
 		//まとめブログ取得
 		$matomehtml=str_get_html($element->parent->parent->parent->innertext);

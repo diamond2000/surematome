@@ -133,8 +133,6 @@ function getmatookikae($mainurl){
 		$string = preg_replace($pattern,'</span></div>', $string);
 		$pattern= '/<\/span> <br \/> \r\n<di/';
 		$string = preg_replace($pattern,'</span></div><br />'."\n".'<di', $string);
-
-
 		//アカ文字偶数列
 		//アレイリスト
 		$pattern= '/(<div class=)(.*?)(<\/div><br \/>)/is';

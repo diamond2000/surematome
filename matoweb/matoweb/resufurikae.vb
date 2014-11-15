@@ -318,23 +318,23 @@ Public Class resufurikae
             Next
 
             '禁止ワード処理(速アウト）
-            Dim dts As DataSet
+            'Dim dts As DataSet
 
-            csqlclass.selectData("select word  from ms_kinshi where shurui = 1 ", dts)
-            For j As Integer = 0 To dts.Tables(0).Rows.Count - 1
-                If lstrtitle.IndexOf(dts.Tables(0).Rows(j).Item("word")) <> -1 Then
+            'csqlclass.selectData("select word  from ms_kinshi where shurui = 1 ", dts)
+            'For j As Integer = 0 To dts.Tables(0).Rows.Count - 1
+            '    If lstrtitle.IndexOf(dts.Tables(0).Rows(j).Item("word")) <> -1 Then
 
-                    Exit Sub
-                End If
-                For i As Integer = 0 To lbody.Count - 1
-                    If lbody(i).ToString <> "" Then
-                        If lbody(i).ToString.IndexOf(dts.Tables(0).Rows(j).Item("word").ToString) <> -1 Then
-                            Exit Sub
-                        End If
-                    End If
-                Next
+            '        Exit Sub
+            '    End If
+            '    For i As Integer = 0 To lbody.Count - 1
+            '        If lbody(i).ToString <> "" Then
+            '            If lbody(i).ToString.IndexOf(dts.Tables(0).Rows(j).Item("word").ToString) <> -1 Then
+            '                Exit Sub
+            '            End If
+            '        End If
+            '    Next
 
-            Next
+            'Next
 
 
             'レス入れ替え空行削除 最大行削除

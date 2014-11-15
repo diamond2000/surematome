@@ -22,20 +22,6 @@
 		$honbun =$honbun . $match[0][$count];
 	    	$count=$count+1;
 	}
-//HTML補正
-$doc = new DOMDocument();
-$doc->loadHTML('<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>'.$honbun.'</body></html>');
-$honbun = $doc->saveHTML();
-$pattern= '/<html><head><meta http\-equiv="Content\-Type" content="text\/html; charset=UTF\-8"><\/head><body>/';
-$honbun = preg_replace($pattern,'', $honbun);
-$pattern= '/<!DOCTYPE html PUBLIC "\-\/\/W3C\/\/DTD HTML 4.0 Transitional\/\/EN" "http:\/\/www\.w3\.org\/TR\/REC\-html40\/loose\.dtd">/';
-$honbun = preg_replace($pattern,'', $honbun);
-$pattern= '/<\/body><\/html>/';
-$honbun = preg_replace($pattern,'', $honbun);
-
-
-//広告
-$honbun = '<!-- admax --><script type="text/javascript" src="http://adm.shinobi.jp/s/d96c3ead9b9957ce6a0326740eeae745"></script><!-- admax --><script type="text/javascript">var nend_params = {"media":12307,"site":81811,"spot":193791,"type":1,"oriented":1};</script><script type="text/javascript" src="http://js1.nend.net/js/nendAdLoader.js"></script>'."\n".$honbun."\n".'<!-- admax --><script type="text/javascript" src="http://adm.shinobi.jp/s/d96c3ead9b9957ce6a0326740eeae745"></script><!-- admax --><script type="text/javascript">var nend_params = {"media":12307,"site":81811,"spot":193791,"type":1,"oriented":1};</script><script type="text/javascript" src="http://js1.nend.net/js/nendAdLoader.js"></script>';
 
 	//■ここから投稿処理■example.comは投稿先アドレスに変える
 	$client = new IXR_Client("http://eversoku.ever.jp/bunbun/xmlrpc.php");
